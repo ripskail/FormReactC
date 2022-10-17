@@ -1,0 +1,108 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
+table.tabl {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+    table.tabl th {
+        font-weight: normal;
+        font-size: 14px;
+        color: #ffffff;
+        background-color: #329c98;
+        font-weight: bold;
+    }
+
+    table.tabl td {
+        font-size: 13px;
+        color: #000000;
+    }
+
+    table.tabl td, table.tabl th {
+        white-space: pre-wrap;
+        padding: 10px 5px;
+        line-height: 13px;
+        vertical-align: middle;
+        border: 1px solid #6bbaf2;
+    }
+
+    table.tabl tr:hover {
+        background-color: #f9fafb
+    }
+
+        table.tabl tr:hover td {
+            color: #354251;
+            cursor: default;
+        }
+
+.top {
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+    text-align: left;
+    padding: 15px;
+    background-color: #329c98;
+    border: solid 1px black
+}
+
+.centrmain {
+    padding: 15px;
+    border: solid 1px black
+}
+
+.form {
+    border-radius: 5px 5px 0px 0px;
+    width: 600px;
+    height: avto;
+    position: absolute;
+}
+
+.select {
+    width: 100%;
+}
+
+.ob {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    font-size: 10px;
+    border: solid 1px black;
+}
+
+    fieldset legend {
+        width: fit-content;
+        margin-left: 20px;
+        padding: 0 10px;
+    }
+
+.multitext {
+    height: 100px;
+    width: 100%;
+}
+
+.textdep {
+    text-align: left;
+}
+
+.bottext {
+    width: 100%;
+    height: 50px;
+    border: solid 1px black
+}
+.intext {
+    padding-left: 6px;
+    width: 100%;
+    border:0px;
+}
+
+ 
